@@ -1,5 +1,7 @@
 issuer: https://auth.int.mckinsey.id/auth/realms/r
 subject: "f2a44402-a43f-41b0-8960-d25337f07131"
+claim_pattern:
+  aud: "*"
 
 permissions:
   contents: write
